@@ -6,6 +6,7 @@ This project is a Django-based Email Campaign Manager. It provides a user-friend
 
 - [Email_campaign_manager](#email_campaign_manager)
   - [Table of Contents](#table-of-contents)
+  - [Requirements](#requirements)
   - [Setup](#setup)
     - [Create a Virtual Environment](#create-a-virtual-environment)
     - [Activate the Virtual Environment](#activate-the-virtual-environment)
@@ -17,6 +18,12 @@ This project is a Django-based Email Campaign Manager. It provides a user-friend
     - [Run the Celery Beat](#run-the-celery-beat)
   - [Managing Subscribers and Campaigns](#managing-subscribers-and-campaigns)
   - [Unsubscribing from Emails](#unsubscribing-from-emails)
+
+## Requirements
+Before setting up and running the project, ensure you have the following requirements installed:
+- **Python:** You'll need Python installed on your system. You can download Python from the [official Python website](https://www.python.org/downloads/).
+
+- **Redis Server:** This project relies on Redis for background task processing. Make sure to install and run Redis on your system. You can download Redis from the [official Redis website](https://redis.io/download) or use a package manager for your operating system.
 
 ## Setup
 
