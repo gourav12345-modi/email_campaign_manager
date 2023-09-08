@@ -1,10 +1,10 @@
-# Email campaign management system
+# Email campaign manager
 
 This project is a Django-based Email Campaign Manager. It provides a user-friendly interface for managing subscribers, creating and scheduling email campaigns, and handling unsubscriptions.
 
 ## Table of Contents
 
-- [Email Campaign](#project-name)
+- [Email_campaign_manager](#email_campaign_manager)
   - [Table of Contents](#table-of-contents)
   - [Setup](#setup)
     - [Create a Virtual Environment](#create-a-virtual-environment)
