@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ subject }}</title>
+</head>
+<body>
+    <header>
+        <h1>{{ subject }}</h1>
+        <p>{{ preview_text }}</p>
+    </header>
+    <main>
+        {{ content |safe }}
+        <a href="{{ article_url }}">Read more</a>
+    </main>
+    <footer>
+        <p>Published on {{ published_date }}</p>
+    </footer>
+</body>
+</html>

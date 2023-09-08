@@ -1,0 +1,35 @@
+# Python-related
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.db
+
+# Django settings
+*.secret_key
+local_settings.py
+
+# Environment-related
+venv/
+.env
+.env.*
+
+# Logs and temporary files
+log/
+tmp/
+
+# Database
+db.sqlite3
+
+# IDE and editor files (adjust based on your IDE/editor)
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Compiled Python files
+*.pyc
+
+# Dependency directories
+node_modules/
+__pycache__/
