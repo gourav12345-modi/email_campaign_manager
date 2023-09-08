@@ -23,7 +23,7 @@ This project is a Django-based Email Campaign Manager. It provides a user-friend
 Before setting up and running the project, ensure you have the following requirements installed:
 - **Python:** You'll need Python installed on your system. You can download Python from the [official Python website](https://www.python.org/downloads/).
 
-- **Redis Server:** This project relies on Redis for background task processing. Make sure to install and run Redis on your system. You can download Redis from the [official Redis website](https://redis.io/download) or use a package manager for your operating system.
+- **Redis Server:** This project relies on Redis for celery broker. Make sure to install and run Redis on your system. You can download Redis from the [official Redis website](https://redis.io/download) or use a package manager for your operating system.
 
 ## Setup
 
