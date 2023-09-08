@@ -10,6 +10,7 @@ This project is a Django-based Email Campaign Manager. It provides a user-friend
     - [Create a Virtual Environment](#create-a-virtual-environment)
     - [Activate the Virtual Environment](#activate-the-virtual-environment)
     - [Install Dependencies](#install-dependencies)
+  - [Configuration](#configuration)
   - [Running the Project](#running-the-project)
     - [Run the Django Server](#run-the-django-server)
     - [Run the Celery Worker](#run-the-celery-worker)
@@ -42,7 +43,13 @@ This project is a Django-based Email Campaign Manager. It provides a user-friend
   ```bash
   pip install -r requirements.txt
   ```
-
+## Configuration
+### Create a .env File
+Before running the project, create a `.env` file in the root folder of the project. This file will store following configuration variables.
+```env
+EMAIL_HOST_USER = your_gmail_address
+EMAIL_HOST_PASSWORD = your_gmail_app_key
+```
 ## Running the Project
 ### Run the Django Server
   To start the Django development serve:
